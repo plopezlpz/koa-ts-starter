@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-      "module": "commonjs",
-      "target": "es2017",
-      "noImplicitAny": true,
-      "outDir": "./dist",
-      "sourceMap": true,
-      "skipLibCheck": true,
-      "typeRoots": [ 
-        "./node_modules/koa-body", 
-        "./typings", 
-        "./node_modules/@types"
-      ]
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./node_modules/koa-body",
+      "./typings",
+      "./node_modules/@types"
+    ]
   },
   "include": [
-      "./src/**/*"
-  ],
-  "exclude": ["node_modules", "typings"]
+    "./src/**/*",
+    "./test/**/*"
+  ]
 }
